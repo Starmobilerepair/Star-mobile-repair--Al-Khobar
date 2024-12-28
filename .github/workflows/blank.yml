@@ -1,0 +1,88 @@
+# This is a basic workflow to help you get started with Actions
+
+name: CI
+
+# Controls when the workflow will run
+on:
+  # Triggers the workflow on push or pull request events but only for the "main" branch
+  push:
+    branches: [ "main" ]
+  pull_request:
+    branches: [ "main" ]
+
+  # Allows you to run this workflow manually from the Actions tab
+  workflow_dispatch:
+
+# A workflow run is made up of one or more jobs that can run sequentially or in parallel
+jobs:
+  # This workflow contains a single job called "build"
+  build:
+    # The type of runner that the job will run on
+    runs-on: ubuntu-latest
+
+    # Steps represent a sequence of tasks that will be executed as part of the job
+    steps:
+      # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
+      - uses: actions/checkout@v4
+
+      # Runs a single command using the runners shell
+      - name: Run a one-line script
+        run: echo Hello, world!
+
+      # Runs a set of commands using the runners shell
+      - name: Run a multi-line script
+        run: |
+          echo Add other actions to build,
+          echo test, and deploy your project.
+<osm version="0.6" generator="openstreetmap-cgimap 2.0.1 (3448775 spike-06.openstreetmap.org)" copyright="OpenStreetMap and contributors" attribution="http://www.openstreetmap.org/copyright" license="http://opendatacommons.org/licenses/odbl/1-0/">
+
+<node id="12422096383" visible="true" version="1" changeset="160270236" timestamp="2024-12-14T07:08:47Z" user="star-mobile-repair" uid="22268363" lat="26.2801521" lon="50.2141109">
+
+<tag k="addr:city" v="al Khobar"/>
+
+<tag k="addr:housenumber" v="3210"/>
+
+<tag k="addr:street" v="Khadim Al Haramain Al Sharifain Road"/>
+
+<tag k="contact:facebook" v="https://www.facebook.com/mobile.repair.khobor"/>
+
+<tag k="currency:SAR" v="yes"/>
+
+<tag k="currency:USD" v="yes"/>
+
+<tag k="email" v="imasum544@gmail.com"/>
+
+<tag k="image" v="https://www.google.com/search?newwindow=1&client=ms-android-att-us-revc&sca_esv=ca3bd6bb63fceada&sxsrf=ADLYWIK7VzTvnRnAqX2LBUdudNGKrea7fA:1734158327800&q=star+%E2%AD%90+mobile+repair&udm=2&fbs=AEQNm0APBXNJdQ94oazsEfpu3LqlbqegNH2YsmAWe7MutqdHysUUpVUKd5h-wj"/>
+
+<tag k="loc_name" v="Star ⭐ Mobile Repair"/>
+
+<tag k="mobile" v="0540327405"/>
+
+<tag k="name" v="Star ⭐ mobile repair - Al Khobar"/>
+
+<tag k="name:ar" v="ستار ⭐ لصيانة الجوال - الخبر"/>
+
+<tag k="name:bn" v="স্টার ⭐ মোবাইল মেরামত - আল খোবার"/>
+
+<tag k="operator" v="Masum"/>
+
+<tag k="payment:app" v="yes"/>
+
+<tag k="payment:cards" v="yes"/>
+
+<tag k="payment:credit_cards" v="yes"/>
+
+<tag k="payment:debit_cards" v="yes"/>
+
+<tag k="payment:mastercard" v="yes"/>
+
+<tag k="payment:paypal" v="yes"/>
+
+<tag k="payment:stc_pay" v="yes"/>
+
+<tag k="phone" v="+966540327405"/>
+
+</node>
+
+</osm>
+
